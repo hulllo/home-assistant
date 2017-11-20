@@ -16,6 +16,9 @@ reports=no
 
 generated-members=botocore.errorfactory
 
+# Use multiple processes to speed up Pylint.
+jobs=4
+
 disable=
   abstract-class-little-used,
   abstract-class-not-used,
